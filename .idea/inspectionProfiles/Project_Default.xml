@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="заголовок" />
+            <item index="1" class="java.lang.String" itemvalue="action_url" />
+            <item index="2" class="java.lang.String" itemvalue="{%" />
+            <item index="3" class="java.lang.String" itemvalue="tw.title" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="posts" />
+            <item index="1" class="java.lang.String" itemvalue="six" />
+            <item index="2" class="java.lang.String" itemvalue="pytest" />
+            <item index="3" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="4" class="java.lang.String" itemvalue="sorl-thumbnail" />
+            <item index="5" class="java.lang.String" itemvalue="requests" />
+            <item index="6" class="java.lang.String" itemvalue="Pillow" />
+            <item index="7" class="java.lang.String" itemvalue="telegram" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="investment.main.models.New.objects" />
+          <option value="yatube.posts.forms.*" />
+          <option value="set.*" />
+          <option value="yatube.tests.test_models.PostModelTest.group" />
+          <option value="posts.models.*" />
+          <option value="int.value" />
+          <option value="yatube.tests.test_urls.UserUrlTest.authorized" />
+          <option value="yatube.tests.test_urls.UserUrlTest.guest" />
+          <option value="yatube.tests.test_urls.PostUrlTest.user1" />
+          <option value="yatube.tests.test_views.PostPageTest.authorized_client" />
+          <option value="yatube.tests.test_views.PostPageTest.user1" />
+          <option value="yatube.tests.test_views.PostPageTest.group" />
+          <option value="yatube.tests.test_views.PostPageTest.group2" />
+          <option value="yatube.tests.test_views.PostPageTest.group1" />
+          <option value="django.forms.fields.TextField" />
+          <option value="django.forms.fields.ForeignKey" />
+          <option value="posts.forms" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
